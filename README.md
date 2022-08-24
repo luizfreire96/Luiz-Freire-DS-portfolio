@@ -14,10 +14,10 @@ To access the application click [here](https://pv-malfunction-detector.herokuapp
     <table>
 	    <tr>
     	    <td style="padding:10px">
-        	    <img src="images/correlation-pv1.png" width="500"/>
+        	    <img src="images/correlation-pv1.png" width="400"/>
       	    </td>
             <td style="padding:10px">
-            	<img src="images/corralatiopv2.png" width="500"/>
+            	<img src="images/corralatiopv2.png" width="400"/>
       	    </td>
         </tr>
     </table>
@@ -36,13 +36,13 @@ The application was deployed in heroku using docker. Click [here](https://laff-c
     <table>
 	    <tr>
     	    <td style="padding:10px">
-        	    <img src="images/cramercorrelation.png" width="500"/>
+        	    <img src="images/cramercorrelation.png" width="280"/>
       	    </td>
             <td style="padding:10px">
-            	<img src="images/confusion1.png" width="500"/>
+            	<img src="images/confusion1.png" width="280"/>
             </td>
             <td style="padding:10px">
-            	<img src="images/confusio2.png" width="500"/>
+            	<img src="images/confusio2.png" width="280"/>
             </td>
         </tr>
     </table>
@@ -64,10 +64,10 @@ It seen the weibull mean value have the lowest RMSE error for long term predicti
     <table>
 	    <tr>
     	    <td style="padding:10px">
-        	    <img src="images/weibull.png" width="500"/>
+        	    <img src="images/weibull.png" width="400"/>
       	    </td>
             <td style="padding:10px">
-            	<img src="images/normal.png" width="500"/>
+            	<img src="images/normal.png" width="400"/>
       	    </td>
         </tr>
     </table>
