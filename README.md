@@ -8,7 +8,7 @@ If the residual error is outside of the 95% confidence interval, probably is a u
 Flask is used to create the app and docker to create an environment with the dependencies to run the app.<br>
 To access the application click [here](https://pv-malfunction-detector.herokuapp.com/)<br>
 
-![](images/pvplot.png)
+![](images/pvplot.png) <br>
 
 <div id="image-table">
     <table>
@@ -58,7 +58,7 @@ The time series models used were the persistence model and auto ARMA, that autma
 The PDFs used were the normal and weibull distributions.<br>
 It seen the weibull mean value have the lowest RMSE error for long term prediction, but for prediction made up to 6 hours the best model can vary.<br>
 
-![](images/comparacaoentremodelos.png)
+![](images/comparacaoentremodelos.png)<br>
 
 <div id="image-table">
     <table>
