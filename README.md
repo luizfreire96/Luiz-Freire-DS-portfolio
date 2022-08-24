@@ -5,7 +5,6 @@
 In this repository a exploratory analysis is made from solar energy production and ambient conditions data. <br>
 Then a linear model is created to predict if the grid have a malfunction based in the error of the model. <br>
 If the residual error is outside of the 95% confidence interval, probably is a unusual error that indicate malfunction in the grid or the instrumentation<br>
-<br>
 Flask is used to create the app and docker to create an environment with the dependencies to run the app.<br>
 To access the application click [here](https://pv-malfunction-detector.herokuapp.com/)<br>
 
@@ -15,7 +14,6 @@ To access the application click [here](https://pv-malfunction-detector.herokuapp
 In this repository a end-to-end application was created to predict if a telecom company customer will churn. <br>
 The data is unbalanced and some work has been done to get a better recall.<br>
 Random Forest Classifier has been used to make this application<br>
-<br>
 The application was deployed in heroku using docker. Click [here](https://laff-churn-predictor.herokuapp.com/) to access the aplication<br>
 
 # [Project 3: Wind Behaviour Prediction](https://github.com/luizfreire96/Wind-energy-data-curve-fit)
