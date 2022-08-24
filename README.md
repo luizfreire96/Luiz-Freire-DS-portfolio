@@ -1,3 +1,5 @@
+theme: minima
+
 # Luiz Freire Portfolio
 
 # [Project 1: Photovoltaic grid malfunction detector](https://github.com/luizfreire96/photovoltaic-grid-malfuncction-detector)
