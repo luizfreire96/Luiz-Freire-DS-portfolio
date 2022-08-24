@@ -1,4 +1,4 @@
-#[Wind Behaviour Prediction](https://github.com/luizfreire96/Wind-energy-data-curve-fit)
+# [Wind Behaviour Prediction](https://github.com/luizfreire96/Wind-energy-data-curve-fit)
 
 In this repository a wind speed prediction is made using probability density functions (PDF) and time series models.
 The data is grouped in bins of 0.1 and 0.05 m/s to fit the probability density function.
