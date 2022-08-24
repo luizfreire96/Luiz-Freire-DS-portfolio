@@ -73,7 +73,8 @@ It seen the weibull mean value have the lowest RMSE error for long term predicti
 
 
 
-# [Tableau Visualizations](https://public.tableau.com/app/profile/luiz.alberto.freire.filho4023)
+# Tableau Visualizations
+Click [here](https://public.tableau.com/app/profile/luiz.alberto.freire.filho4023) to access my tableau profile
 
 ![](images/Potencial-biogas.png)
 
