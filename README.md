@@ -1,3 +1,5 @@
+# Luiz Freire Portfolio
+
 # [Project 1: Photovoltaic grid malfunction detector](https://github.com/luizfreire96/photovoltaic-grid-malfuncction-detector)
 
 In this repository a exploratory analysis is made from solar energy production and ambient conditions data. <br>
