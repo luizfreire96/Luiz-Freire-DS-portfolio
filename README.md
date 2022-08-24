@@ -7,6 +7,7 @@ Then a linear model is created to predict if the grid have a malfunction based i
 If the residual error is outside of the 95% confidence interval, probably is a unusual error that indicate malfunction in the grid or the instrumentation<br>
 Flask is used to create the app and docker to create an environment with the dependencies to run the app.<br>
 To access the application click [here](https://pv-malfunction-detector.herokuapp.com/)<br>
+
 ![](images/pvplot.png)
 
 <div id="image-table">
@@ -17,6 +18,7 @@ To access the application click [here](https://pv-malfunction-detector.herokuapp
       	    </td>
             <td style="padding:10px">
             	<img src="images/corralatiopv2.png" width="500"/>
+      	    </td>
         </tr>
     </table>
 </div>
@@ -66,6 +68,7 @@ It seen the weibull mean value have the lowest RMSE error for long term predicti
       	    </td>
             <td style="padding:10px">
             	<img src="images/normal.png" width="500"/>
+      	    </td>
         </tr>
     </table>
 </div>
