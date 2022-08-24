@@ -7,6 +7,19 @@ Then a linear model is created to predict if the grid have a malfunction based i
 If the residual error is outside of the 95% confidence interval, probably is a unusual error that indicate malfunction in the grid or the instrumentation<br>
 Flask is used to create the app and docker to create an environment with the dependencies to run the app.<br>
 To access the application click [here](https://pv-malfunction-detector.herokuapp.com/)<br>
+![](images/pvplot.png)
+
+<div id="image-table">
+    <table>
+	    <tr>
+    	    <td style="padding:10px">
+        	    <img src="images/correlation-pv1.png" width="500"/>
+      	    </td>
+            <td style="padding:10px">
+            	<img src="images/corralatiopv2.png" width="500"/>
+        </tr>
+    </table>
+</div>
 
 
 # [Project 2: Telecom churn predictor](https://github.com/luizfreire96/Telecom-Churn-analysis)
@@ -16,6 +29,25 @@ The data is unbalanced and some work has been done to get a better recall.<br>
 Random Forest Classifier has been used to make this application<br>
 The application was deployed in heroku using docker. Click [here](https://laff-churn-predictor.herokuapp.com/) to access the aplication<br>
 
+
+<div id="image-table">
+    <table>
+	    <tr>
+    	    <td style="padding:10px">
+        	    <img src="images/cramercorrelation.png" width="500"/>
+      	    </td>
+            <td style="padding:10px">
+            	<img src="images/confusion1.png" width="500"/>
+            </td>
+            <td style="padding:10px">
+            	<img src="images/confusio2.png" width="500"/>
+            </td>
+        </tr>
+    </table>
+</div>
+
+
+
 # [Project 3: Wind Behaviour Prediction](https://github.com/luizfreire96/Wind-energy-data-curve-fit)
 
 In this repository a wind speed prediction is made using probability density functions (PDF) and time series models.<br>
@@ -24,7 +56,25 @@ The time series models used were the persistence model and auto ARMA, that autma
 The PDFs used were the normal and weibull distributions.<br>
 It seen the weibull mean value have the lowest RMSE error for long term prediction, but for prediction made up to 6 hours the best model can vary.<br>
 
+![](images/comparacaoentremodelos.png)
+
+<div id="image-table">
+    <table>
+	    <tr>
+    	    <td style="padding:10px">
+        	    <img src="images/weibull.png" width="500"/>
+      	    </td>
+            <td style="padding:10px">
+            	<img src="images/normal.png" width="500"/>
+        </tr>
+    </table>
+</div>
+
+
+
 # [Tableau Visualizations](https://public.tableau.com/app/profile/luiz.alberto.freire.filho4023)
+
+![](images/Potencial-biogas.png)
 
 # Minor Projects and Exercises
 [Python](https://github.com/luizfreire96/br-python-challenges)<br>
