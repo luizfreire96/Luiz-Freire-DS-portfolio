@@ -1,12 +1,8 @@
-# [Metabase visualization]()
+# [Metabase visualization](http://137.184.190.59:3000/public/dashboard/00129df9-b236-48cb-a947-efb70db79ffe)
 
 Using a biased model on purpose to focus on recall score, a dashboard was created in metabase to analyze relevant metrics that indicates
 the trending to churn. Then, with the biased model in order to detect all churns even it costs some accuracy of the model, 98% of all churn was
 detected with 20% of false positives. The retention politics can define if is worth it to use a balanced model or a biased model.
-<div id="html coisa">
-	<iframe    src="http://137.184.190.59:3000/public/dashboard/00129df9-b236-48cb-a947-efb70db79ffe"    frameborder="0"    width="800"    height="600"    allowtransparency></iframe>
-</div>
-
 
 # [Project 1: Photovoltaic grid malfunction detector](https://github.com/luizfreire96/photovoltaic-grid-malfuncction-detector)
 
