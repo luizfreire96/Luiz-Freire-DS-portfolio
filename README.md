@@ -1,10 +1,11 @@
-# [Metabase visualization](http://137.184.190.59:3000/public/dashboard/00129df9-b236-48cb-a947-efb70db79ffe)
+# [Project 1: Wind Behavior Monitoring Application using Kubernetes](https://github.com/luizfreire96/windmonitoring)
 
-Using a biased model on purpose to focus on recall score, a dashboard was created in metabase to analyze relevant metrics that indicates
-the trending to churn. Then, with the biased model in order to detect all churns even it costs some accuracy of the model, 98% of all churn was
-detected with 20% of false positives. The retention politics can define if is worth it to use a balanced model or a biased model.
+Forecasting wind speed have a lot of benefits, like manage the power transmission and distribution grid, protect the equipaments from over production, doing the maintenance in a good moment, etc. With that in mind, this project was developed to create a interface to expose the predictions data based in previous data.
+To develop this project, an docker image was created for each statistical model used and another to expose the data in a dashboard. To orchastarte the containers, kubernetes was used. The database was created locally to store the models parameters, wind speed data and turbine locations. A test database filled with 10% of nan's in random locations was created to test the model used to fill the nan's.
 
-# [Project 1: Photovoltaic grid malfunction detector](https://github.com/luizfreire96/photovoltaic-grid-malfuncction-detector)
+![](https://github.com/luizfreire96/windmonitoring/blob/b58409fd85c7bcacd62d461a0b64e8198658026e/krigingBuild/kriging.png)
+
+# [Project 2: Photovoltaic grid malfunction detector](https://github.com/luizfreire96/photovoltaic-grid-malfuncction-detector)
 
 In this repository a exploratory analysis is made from solar energy production and ambient conditions data. <br>
 Then a linear model is created to predict if the grid have a malfunction based in the error of the model. <br>
@@ -28,7 +29,7 @@ To access the application click [here](https://pv-malfunction-detector.herokuapp
 </div>
 
 
-# [Project 2: Telecom churn predictor](https://github.com/luizfreire96/Telecom-Churn-analysis)
+# [Project 3: Telecom churn predictor](https://github.com/luizfreire96/Telecom-Churn-analysis)
 
 In this repository a end-to-end application was created to predict if a telecom company customer will churn. <br>
 The data is unbalanced and some work has been done to get a better recall.<br>
@@ -54,7 +55,7 @@ The application was deployed in heroku using docker. Click [here](https://laff-c
 
 
 
-# [Project 3: Wind Behaviour Prediction](https://github.com/luizfreire96/Wind-energy-data-curve-fit)
+# [Project 4: Wind Behaviour Prediction](https://github.com/luizfreire96/Wind-energy-data-curve-fit)
 
 In this repository a wind speed prediction is made using probability density functions (PDF) and time series models.<br>
 The data is grouped in bins of 0.1 and 0.05 m/s to fit the probability density function.<br>
