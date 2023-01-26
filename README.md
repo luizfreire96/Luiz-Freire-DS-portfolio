@@ -1,4 +1,4 @@
-# [Project 1: Wind Behavior Monitoring Application using Kubernetes](https://github.com/luizfreire96/windmonitoring)
+# [Project 1: Wind Behavior Monitoring Application using Kubernetes](https://github.com/luizfreire96/wind-monitoring)
 
 Forecasting wind speed have a lot of benefits, like manage the power transmission and distribution grid, protect the equipaments from over production, doing the maintenance in a good moment, etc. With that in mind, this project was developed to create a interface to expose the predictions data based in previous data.
 To develop this project, an docker image was created for each statistical model used and another to expose the data in a dashboard. To orchastarte the containers, kubernetes was used. The database was created locally to store the models parameters, wind speed data and turbine locations. A test database filled with 10% of nan's in random locations was created to test the model used to fill the nan's.
